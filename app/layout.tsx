@@ -32,7 +32,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 /* ─── SEO CONSTANTS ─── */
-const SITE_URL = "https://sadaivcyber.com";
+const SITE_URL = "https://sadaivyuvafoundation.com";
 const SITE_NAME = "Sadaiv Yuva Foundation";
 const TITLE =
   "Sadaiv Yuva Foundation | Cyber Awareness & Cyber Fraud Prevention in India";
@@ -105,6 +105,12 @@ export const metadata: Metadata = {
 
   // Uncomment after you add the site in Google Search Console:
   // verification: { google: "YOUR_GOOGLE_VERIFICATION_CODE" },
+
+  // Facebook domain verification (renders as
+  // <meta name="facebook-domain-verification" content="..." /> in <head>)
+  other: {
+    "facebook-domain-verification": "n5u1vjf5hezycf5ie4wvv7gqpodd4e",
+  },
 };
 
 export const viewport: Viewport = {
